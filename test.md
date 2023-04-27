@@ -1,2 +1,1 @@
-node_modules
 This file should be ignore
