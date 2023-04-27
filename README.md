@@ -4,7 +4,7 @@
 
 <div align="center">
   
-  <h3><b> Hello Microverse</b></h3>
+  <h3><b> MObile Portfolio</b></h3>
 
 </div>
 
@@ -29,9 +29,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Hello Microverse <a name="about-project"></a>
+# 📖 Mobile portfolio <a name="about-project"></a>
 
-**Hello Microverse** is a repository.The goal is to master all of the tools and best practices learned in previous steps.
+**mobile portfolio** is a repository.The goal is to master all of the tools and best practices learned in previous steps.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -75,7 +75,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-git clone https://github.com/kit0-0/Hello_microverse.git
+git clone https://github.com/ClarenceAtim/Portfolio.git
 
 ### Install
 
