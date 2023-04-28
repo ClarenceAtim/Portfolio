@@ -31,7 +31,7 @@
 
 # 📖 Mobile portfolio <a name="about-project"></a>
 
-**mobile portfolio** is a repository.The goal is to master all of the tools and best practices learned in previous steps.
+**portfolio** is a repository.The goal is to master all of the tools and best practices learned in previous steps.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -104,10 +104,7 @@ npx hint .
 ```
 npx stylelint "**/*.{css,scss}"
 ```
-- Track JavaScript linter errors run:
-```
-npx eslint .
-```
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -115,9 +112,9 @@ npx eslint .
 
 ## 👥 Author <a name="author"></a>
 
-👤 Kiko
+👤 Clarence
 
-- GitHub: [@kit0-0](https://github.com/kit0-0)
+- GitHub: [ClarenceAtim](https://github.com/ClarenceAtim/Portfolio/tree/Portfolio-branch)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

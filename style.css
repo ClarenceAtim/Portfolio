@@ -46,7 +46,7 @@ img {
   justify-content: space-between;
   align-items: center;
   padding: 7px 20px;
-  font-family: var(--font-roboto);
+  font-family: 'Crete Round', sans-serif;
   font-weight: 700;
   font-size: 18px;
   height: 10vh;
@@ -95,7 +95,6 @@ img {
   font-size: 16px;
   line-height: 24px;
   margin: 12px 0;
-  margin: 10px;
 }
 
 .intro-heading {
@@ -105,14 +104,6 @@ img {
   display: flex;
   align-items: center;
   margin: 10px;
-}
-
-.intro-para {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  margin: 12px 0;
 }
 
 .icons-container {
