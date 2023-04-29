@@ -8,6 +8,7 @@
   --font-orange: #ff6b00;
 }
 
+*,
 ::after,
 ::before {
   box-sizing: border-box;
@@ -46,8 +47,8 @@ img {
   justify-content: space-between;
   align-items: center;
   padding: 7px 20px;
-  font-family: 'Crete Round', sans-serif;
-  font-weight: 700;
+  font-family: var(--font-roboto);
+  font-weight: 375;
   font-size: 18px;
   height: 10vh;
 }
@@ -55,24 +56,24 @@ img {
 .menu-btn {
   display: flex;
   justify-content: center;
-  width: 24px;
-  height: 24px;
+  width: 375px;
+  height: 95px;
   border: none;
   background-color: transparent;
   cursor: pointer;
 }
 
-.open {
+/* .open {
   background: url('./images/menu.svg') no-repeat;
   padding: 20px;
-}
+} */
 
-.home {
-  height: 590px;
+.home-page {
+  padding-top: 70px;
+  padding-left: 20px;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 0 20px;
   background-color: var(--main-background);
   align-items: flex-start;
   line-height: 24px;
@@ -103,17 +104,15 @@ img {
   font-size: 24px;
   display: flex;
   align-items: center;
-  margin: 10px;
+  margin: 12px 0;
 }
 
 .icons-container {
   display: flex;
   align-items: center;
-  flex-direction: column;
-  padding-top: 20px;
 }
 
-.media-icon {
+.social-media-icon {
   margin: 5px;
 }
 
@@ -121,13 +120,14 @@ img {
   background-repeat: no-repeat;
   position: absolute;
   left: 60%;
-  top: 55%;
+  top: 59%;
   width: 150px;
-  height: 360px;
+  padding-top: 59px;
 }
 
 .icons {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  padding-left: 15px;
 }
