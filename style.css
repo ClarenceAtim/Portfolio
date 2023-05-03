@@ -5,7 +5,8 @@
   font-family: 'Crete Round', serif;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -22,7 +23,7 @@ header a {
   text-decoration: none;
   font-size: 18px;
   font-weight: 700;
-  color: #fff;  
+  color: #fff;
 }
 
 .hero {
