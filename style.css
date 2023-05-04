@@ -28,6 +28,7 @@ header a {
 
 .hero {
   display: flex;
+  font-family: "poppins";
   flex-direction: column;
   gap: 10px;
   background-color: #1c1a19;
@@ -35,7 +36,7 @@ header a {
   background-image: url(./images/header.svg);
   background-repeat: no-repeat;
   background-position: bottom right;
-  height: 100%;
+  height: 110%;
 }
 
 .home-header {
@@ -55,7 +56,10 @@ header a {
 }
 
 .home-header p {
-  font-size: 16px;
+  font-family: "poppins";
+  font-style: bold;
+  font-size: 24px;
+  padding: 5px;
 }
 
 .socials {
@@ -66,5 +70,12 @@ header a {
 }
 
 .socials li i {
-  color: #fff;
+  color: #DBD8D7;
+ height: 20px;
+ width: 14.2px;
+ left: 3px;
+ top: 0px;
+ border-radius: 0px;
+ gap: 12px;
+
 }
