@@ -7,7 +7,7 @@
 
 body {
   height: 100%;
-} 
+}
 
 header {
   display: flex;
@@ -27,7 +27,7 @@ header a {
 
 .hero {
   display: flex;
-  font-family: "poppins";
+  font-family: 'poppins';
   flex-direction: column;
   gap: 10px;
   background-color: #1c1a19;
@@ -55,7 +55,7 @@ header a {
 }
 
 .home-header p {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: bold;
   font-size: 24px;
   padding: 5px;
