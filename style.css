@@ -146,7 +146,7 @@ header a {
   font-weight: 500;
   line-height: 20px;
   letter-spacing: 0;
-  color: #fff;
+  color: #091e42;
   padding: 10px 12px;
   display: block;
 }
@@ -249,13 +249,23 @@ header a {
   text-align: left;
   margin: 0 24px;
   color: #f4f5f7;
+  
 }
 
 .about-myself > a {
   margin-top: 24px;
 }
 
-.btn li a:link {
+.img-get {
+  background-image: url(images/Frame.svg);
+  background-repeat: no-repeat;
+  position: relative;
+  right: -235px;
+  height: 259px;
+  top: -50px;
+}
+
+/* .btn li a:link {
   background-color: #f55800;
   color: #fff;
 }
@@ -272,7 +282,7 @@ header a {
 .btn li a:active {
   background-color: #e05304;
   color: #fff;
-}
+} */
 
 #my-logo > a {
   text-decoration: none;
