@@ -1,4 +1,4 @@
-
+ 
 <!DOCTYPE html>
 <html lang="en">
 
@@ -196,5 +196,39 @@
     </div>
   </section>
 
-  
+ <!-- contact and form section -->
+
+ <section class="contact-section">
+    <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
+    <form class="contact-form" action="https://formspree.io/f/xwkjrkqw" method="post" id="form-element">
+      <ul>
+        <li>
+          <label for="full-name"></label>
+          <input id="full-name" type="text" name="name" placeholder="Full name" maxlength="30" required />
+        </li>
+        <li>
+          <label for="email"></label>
+          <input id="email" type="email" name="email" placeholder="Email address" required />
+        </li>
+        <div id="error-message"></div>
+        <li>
+          <textarea id="msg" name="user_message" maxlength="500" placeholder="Write me something..."
+            required></textarea>
+        </li>
+        <li>
+          <label for="submit"></label>
+          <button id="submit" type="submit" class="submit-btn"> Get in touch</button>
+        </li>
+      </ul>
+    </form>
+  </section>
+  <footer>
+    <ul class="contact-media">
+        <li><a href="#"><img class="social-media-icon" src="./images/Icon -GitHub.png" alt="github icon"></a></li>
+        <li><a href="#"><img class="social-media-icon" src="./images/Icon - Linkedin.png" alt="linkedin icon"></a></li>
+        <li><a href="#"><img class="social-media-icon" src="./images/Icon - Angelist.png" alt="angelist icon"></a></li>
+        <li><a href="#"><img class="social-media-icon" src="./images/Icon - Twitter.png" alt="twitter icon"></a></li>
+        <li><a href="#"><img class="social-media-icon color" src="./images/Icon - Medium.png" alt="medium icon"></a></li>
+    </ul>
+</footer>
 </body>
