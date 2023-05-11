@@ -348,18 +348,15 @@ header a {
 }
 
 .contact-section h2{
-  display: flex;
-font-family: 'Inter';
-font-style: normal;
-align-items: center;
-justify-content: center;
-align-content: center;
+display: flex;
+font-family: var(--font-inter);
 font-weight: 700;
-font-size: 32px;
-line-height: 44px;
+color: #172b4d;
+text-align: center;
+font-size: 2em;
+padding-top: 15vh;
+margin-bottom: 10vh;
 }
-
-
 
 .contact-section .form {
    display: flex;
@@ -393,7 +390,6 @@ form{
 
 .message-field-container {
   width: 100%;
-  /* margin-top: 30px; */
 }
 
 
@@ -445,3 +441,4 @@ textarea {
   padding-bottom: 4vh;
   list-style: none;
 }
+
