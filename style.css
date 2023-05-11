@@ -2,11 +2,17 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Crete Round', serif;
+}
+
+:root {
+  --primary-color: #ff6b00;
+  --dark-blue: #172b4d;
+  --light: #fbf8f7;
 }
 
 body {
   height: 100%;
+  font-family: 'Crete Round', serif;
 }
 
 header {
@@ -264,7 +270,7 @@ header a {
   top: -50px;
 }
 
-/* .btn li a:link {
+.btn li a:link {
   background-color: #f55800;
   color: #fff;
 }
@@ -281,7 +287,7 @@ header a {
 .btn li a:active {
   background-color: #e05304;
   color: #fff;
-} */
+}
 
 #my-logo > a {
   text-decoration: none;
@@ -331,4 +337,100 @@ header a {
   list-style-type: none;
   margin: 0 24px;
   padding-left: 0;
+}
+
+.contact-section {
+  margin-inline: 20px;
+  margin-top: 50px;
+  margin-bottom: 64px;
+}
+
+.contact-section h2 {
+  display: flex;
+  font-family: var(--font-inter);
+  font-weight: 700;
+  color: #172b4d;
+  text-align: center;
+  font-size: 2em;
+  padding-top: 15vh;
+  margin-bottom: 10vh;
+}
+
+.contact-section .form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+  width: 327px;
+}
+
+.contact-section .form .input-container {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.contact-section .form .input-container input {
+  border: none;
+  outline: none;
+  height: 60px;
+  border-bottom: 0.5px solid rgba(128, 128, 128, 0.171);
+  width: 100%;
+  transition: 0.3s;
+}
+
+.contact-section .form .input-container input:focus {
+  border-color: var(--primary-color);
+}
+
+.message-field-container {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+  height: 114px;
+}
+
+.message-field-container textarea {
+  width: 95%;
+  border: 1px solid transparent;
+  outline: none;
+  background-color: var(--light);
+  padding: 10px;
+  resize: vertical;
+  max-height: 100px;
+}
+
+.message-field-container textarea:focus {
+  border-color: var(--primary-color);
+}
+
+.btn-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+}
+
+.btn-container button {
+  background: var(--primary-color);
+  padding: 20px 35px;
+  border: none;
+  font-weight: 700;
+  font-size: 17px;
+  color: white;
+  gap: 10px;
+}
+
+.contact-media {
+  display: flex;
+  margin: 0;
+  width: 100%;
+  height: 72px;
+  justify-content: center;
+  border-top: 0.5px solid lightgray;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  list-style: none;
 }

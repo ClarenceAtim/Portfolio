@@ -151,6 +151,9 @@ If you like this project give ⭐️
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank my teammembers
+Melkamu and
+Ian
+for helping me out
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
