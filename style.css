@@ -18,7 +18,7 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 20px 40px;
+  padding: 20px 39px;
   background-color: #3c3a39;
   color: #fff;
 }
@@ -27,7 +27,7 @@ header a {
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 600;
   color: #fff;
 }
 
@@ -433,4 +433,4 @@ textarea {
   padding-top: 4vh;
   padding-bottom: 4vh;
   list-style: none;
-}
+  
