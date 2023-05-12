@@ -1,55 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title> CLARENCE PORTFOLIO</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto:wght@400;700;900&display=swap"
-        rel="stylesheet">
-    <script src="https://kit.fontawesome.com/073688fc60.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>CLARENCE PORTFOLIO</title>
 </head>
-
 <body>
-
-    <!-- Navigation -->
-
-    <header>
-        <a clsss="my-logo" href="#">Clarence</a>
-        <nav>
-            <i class="fa-solid fa-bars"></i>
+    <header class="toolbar">
+        <div id="my-logo">
+            <a href="#">CLARENCE</a>
+        </div>
+        <nav class="menu-bar">
+            <img src="images/menu.svg" alt="menu bar">
+            <ul class="social-media">
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#"><img src="images/email.png" alt="">
+                </a></li>
+            </ul>
         </nav>
     </header>
-
-    <!-- Hero Section -->
-
-    <section class="hero">
-        <div class="home-header">
-            <h1>Hey There.<br>I'm Clarence</h1>
-            <p class="sub-header">I'm a software developer</p>
-            <p>I can help you build a product, feature or web site look throughsome of my workand experiece!If you like
-                whst you see and have a project you need coded,dont hesitate to contact me.</p>
+    <section class="headline-section">
+            <div id="information">
+                <h1>Hey There.<br>I'm Clarence.</h1>
+            <h2>I'm a Software Developer</h2>
+        <div id="paragraph">
+            <p>
+                I can help you build a product , feature or website Look through some of my work and experience!
+                If you like what you see and have a project you need coded, don't hesitate to contact me.
+            </p>
         </div>
-        <ul class="socials">
-            <li><a href="#"></a><i class="fa-brands fa-github"></i></li>
-            <li><a href="#"></a><i class="fa-brands fa-linkedin"></i></li>
-            <li><a href="#"></a><i class="fa-brands fa-angellist"></i></li>
-            <li><a href="#"></a><i class="fa-brands fa-twitter"></i></li>
-            <li><a href="#"></a><i class="fa-brands fa-medium"></i></li>
-        </ul>
+            </div>
+        <div class="social-media">
+            <ul>
+                <li><a href="#"><img src="images/github.svg" alt="github"></a></li>
+                <li><a href="#"><img src="images/linkin.svg" alt="linkedin"></a></li>
+                <li><a href="#"><img src="images/anglist.svg" alt="anjelles"></a></li>
+                <li><a href="#"><img src="images/twitter.svg" alt="twitter"></a></li>
+                <li><a href="#"><img src="images/medium.svg" alt="medium icon"></a></li>
+            </ul>
+        </div> 
+        <img src="images/illustration.header.svg" alt="">       
     </section>
-
-
     <section class="works">
-        <h2 class="card-1">My Recent works</h2>
+        <div class="card-1">
+            <h2 >My Recent works</h2>
+            <img src="images/line.svg" alt="line">
+        </div>
         <div class="card-2">
-            <img src="images/Img Placeholder.png" alt="Placeholder">
-            <h3 id="story">Multi-Post Stories</h3>
+            <img id="gym-1" src="images/img-placeholder.svg" alt="Placeholder">
+            <img id="gym-2" src="images/img-placeholder-desktop.svg" alt="Placeholder">
+            <div id="description">
+                <h3 id="story">Multi-Post Stories</h3>
             <p>
                 A daily selection of privately personalized reads;
                 no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s,
@@ -62,6 +68,7 @@
                 <li><a href="#">RUBY</a></li>
             </ul>
             <a class="see-project button-1" href="#">See project</a>
+            </div>    
         </div>
         <div class="card-3">
             <h2>Profesional Art Printing Data</h2>
@@ -74,7 +81,7 @@
                 <li><a href="#">Bootstrap</a></li>
                 <li><a href="#">RUBY</a></li>
             </ul>
-            <a class="see-project" href="#">See project</a>
+            <a class="see-project none" href="#">See project</a>
         </div>
         <div class="card-3">
             <h2>Profesional Art Printing Data</h2>
@@ -87,7 +94,7 @@
                 <li><a href="#">Bootstrap</a></li>
                 <li><a href="#">RUBY</a></li>
             </ul>
-            <a class="see-project" href="#">See project</a>
+            <a class="see-project none" href="#">See project</a>
         </div>
         <div class="card-3">
             <h2>Profesional Art Printing Data</h2>
@@ -100,7 +107,7 @@
                 <li><a href="#">Bootstrap</a></li>
                 <li><a href="#">RUBY</a></li>
             </ul>
-            <a class="see-project" href="#">See project</a>
+            <a class="see-project none" href="#">See project</a>
         </div>
         <div class="card-3">
             <h2>Profesional Art Printing Data</h2>
@@ -113,7 +120,7 @@
                 <li><a href="#">Bootstrap</a></li>
                 <li><a href="#">RUBY</a></li>
             </ul>
-            <a class="see-project" href="#">See project</a>
+            <a class="see-project none" href="#">See project</a>
         </div>
         <div class="card-3">
             <h2>Profesional Art Printing Data</h2>
@@ -126,7 +133,7 @@
                 <li><a href="#">Bootstrap</a></li>
                 <li><a href="#">RUBY</a></li>
             </ul>
-            <a class="see-project" href="#">See project</a>
+            <a class="see-project none" href="#">See project</a>
         </div>
         <div class="card-3 last">
             <h2>Profesional Art Printing Data</h2>
@@ -139,26 +146,26 @@
                 <li><a href="#">Bootstrap</a></li>
                 <li><a href="#">RUBY</a></li>
             </ul>
-            <a class="see-project" href="#">See project</a>
+            <a class="see-project none" href="#">See project</a>
         </div>
     </section>
     <section class="about-myself">
-        <h2>About me</h2>
-        <p>
-            Hello I'm a software developer! I can help you build a product ,
-            feature or website Look through some of my work and experience!
-            If you like what you see and have a project you need coded, don't hesitate to contact me.
-        </p>
-        <a class="see-project button-1" href="#">Get my resume</a>
-        <!-- <img src="images/Frame.svg" alt="frame image"> -->
-
-        <div class="img-get" aria-hidden="true"></div>
-        <hr>
+        <div id="about-info">
+            <h2>About me</h2>
+            <p>
+                Hello I'm a software developer! I can help you build a product ,
+                feature or website Look through some of my work and experience!
+                If you like what you see and have a project you need coded, don't hesitate to contact me.
+            </p>
+            <a class="see-project button-1" href="#">Get my resume</a>    
+        </div>
+       <img id="frame" src="images/Frame.svg" alt="frame image">
+        <hr id="line-1">
+        <hr id="line-2">
         <div class="categories">
-            <ul class="outer-list">
-                <li>
+                <div class="outer-list">
                     <div class="footer-heading font">
-                        <img src="images/Rectangle.svg" alt="Rotated rectangle">
+                        <img src="images/rectangle.svg" alt="Rotated rectangle">
                         <span class="font">Language</span>
                     </div>
                     <ul class="inner-list">
@@ -167,69 +174,64 @@
                         <li>HTML</li>
                         <li>CSS</li>
                     </ul>
-                </li>
-                <li>
-                    <div class="footer-heading font">
-                        <img src="images/square.svg" alt="Rectangle">
-                        <span class="font">Frameworks</span>
+                </div>
+                <div class="outer-list">
+                <div class="footer-heading font">
+                    <img src="images/square.svg" alt="Rectangle">
+                    <span class="font">Frameworks</span>
+                </div>
+                <ul class="inner-list">
+                    <li>React.js</li>
+                    <li>Ruby on Rails</li>
+                    <li>RSpec</li>
+                    <li>Capybara</li>
+                </ul>
+            </div>
+                    <div class="outer-list">
+                        <div class="footer-heading font">
+                            <img src="images/circle.svg" alt="circle">
+                            <span class="font">Skills</span>
+                        </div>
+                        <ul class="inner-list">
+                            <li>Database Management</li>
+                            <li>Version Control</li>
+                            <li>CLI</li>
+                            <li>API Design</li>
+                            <li>Web development</li>
+                        </ul>
                     </div>
-                    <ul class="inner-list">
-                        <li>React.js</li>
-                        <li>Ruby on Rails</li>
-                        <li>RSpec</li>
-                        <li>Capybara</li>
-                    </ul>
-                </li>
-                <li>
-                    <div class="footer-heading font">
-                        <img src="images/circle.svg" alt="circle">
-                        <span class="font">Skills</span>
-                    </div>
-                    <ul class="inner-list">
-                        <li>Database Management</li>
-                        <li>Version Control</li>
-                        <li>CLI</li>
-                        <li>API Design</li>
-                        <li>Web development</li>
-                    </ul>
-                </li>
-            </ul>
         </div>
     </section>
-
-    <!-- contact and form section -->
-
-    <section class="contact-section">
-        <h2> I'm always<br> interested in hearing about new projects, so if you'd like to chat please get in <br> touch.</h2>
-        <form action="/" method="post" class="form">
-            <div class="input-container">
-                <input type="text" name="" id="" placeholder="Full Name">
+    <section class="contact-form">
+        <h2>
+            I'm always interested in hearing about new projects,
+             so if you'd like to chat please get in touch.
+        </h2>
+        <form action="https://formspree.io/f/xknaerow" method="post">
+            <div class="container">
+                <input type="text" class="input-font" id="fullname" name="fullname" placeholder="Full Name" maxlength="30" required>
             </div>
-
-            <div class="input-container">
-                <input type="email" name="" id="" placeholder="Email Adress">
+            <div class="container">
+                <input type="email" class="input-font" id="email" name="email" placeholder="Email address" required>
             </div>
-
-            <div class="message-field-container">
-                <textarea name="" id="" maxlength="500" placeholder="write me something....."></textarea>
+            <div class="last-div">
+                <textarea name="message" id="sms" cols="30" rows="10" maxlength="500" required placeholder="Write me something"></textarea>
             </div>
-
-            <div class="btn-container">
-                <button type="submit" class="">Get in touch</button>
+            <div class="container">
+                <input type="submit" id="submit" name="submit" value="Get in touch">
             </div>
         </form>
+        
     </section>
-    <footer>
-        <ul class="contact-media">
-            <li><a href="#"><img class="social-media-icon" src="./images/Icon -GitHub.png" alt="github icon"></a></li>
-            <li><a href="#"><img class="social-media-icon" src="./images/Icon - Linkedin.png" alt="linkedin icon"></a>
-            </li>
-            <li><a href="#"><img class="social-media-icon" src="./images/Icon - Angelist.png" alt="angelist icon"></a>
-            </li>
-            <li><a href="#"><img class="social-media-icon" src="./images/Icon - Twitter.png" alt="twitter icon"></a>
-            </li>
-            <li><a href="#"><img class="social-media-icon color" src="./images/Icon - Medium.png" alt="medium icon"></a>
-            </li>
+
+    <footer class="social-meia">
+        <ul>
+            <li><a href="#"><img src="images/Github/desktop.svg" alt="github"></a></li>
+            <li><a href="#"><img src="images/linkind/deskstop.svg" alt="linkedin"></a></li>
+            <li><a href="#"><img src="images/angelist/deskstop.svg" alt="anjelles"></a></li>
+            <li><a href="#"><img src="images/twitter/deskstop.svg" alt="twitter"></a></li>
+            <li><a href="#"><img src="images/medium/deskstop.svg" alt="medium icon"></a></li>
         </ul>
     </footer>
 </body>
+</html>
