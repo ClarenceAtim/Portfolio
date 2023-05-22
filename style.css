@@ -10,6 +10,7 @@
   background-color: #3c3a39;
   width: 100%;
   align-items: center;
+  height: 55px;
 }
 
 #my-logo {
@@ -31,7 +32,73 @@
   padding-right: 24px;
   margin-top: 19px;
   margin-bottom: 19px;
+  position: fixed;
+  top: -1.2rem;
+  background-color:#212121;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10rem;
+  transition: all ease-in-out 0.2s;
+  display: none;
+  z-index: 1;
 }
+
+.active{
+  display: block;
+  transition: all ease-in-out 0.2s;
+}
+
+.menu-bar ul{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 1rem;
+  padding: 0 0 0 6rem;
+}
+
+.nav-links{
+  text-decoration: none;
+  color: #f4f1f0;
+}
+
+.hamberger-container{
+  width: 1.5rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin-right: 1rem;
+  z-index: 10;
+}
+
+.btn-line{
+  width: inherit;
+  height: 2px;
+  background-color: #fff;
+  transition: all ease-in 0.3s;
+}
+
+.hamberger-container.close{
+  transform: rotate(180deg);
+}
+
+.hamberger-container.close .btn-line:nth-child(1) {
+  transform: rotate(45deg) translate(4px, 2px);
+  transition: all ease-in 0.3s;
+}
+
+.hamberger-container.close .btn-line:nth-child(2) {
+  opacity: 0;
+}
+
+.hamberger-container.close .btn-line:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -6px);
+  transition: all ease-in 0.3s;
+}
+
 
 footer ul {
   display: flex;
@@ -43,9 +110,6 @@ footer ul {
   padding-left: 0;
 }
 
-.menu-bar ul {
-  display: none;
-}
 
 .headline-section {
   display: flex;
@@ -483,9 +547,16 @@ footer ul {
 
   .menu-bar {
     margin-right: 13%;
+    display: block;
+    position: relative;
+    top: 0;
+    background-color:#3c3a39;
+    height: auto;
+    width: auto;
+    padding-top: 1rem;
   }
 
-  .menu-bar > img {
+  .hamberger-container{
     display: none;
   }
 
@@ -499,7 +570,7 @@ footer ul {
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
-    gap: 10px;
+    gap: 3rem;
   }
 
   .menu-bar ul li a {
@@ -727,9 +798,3 @@ footer ul {
     margin-left: 0;
   }
 }
-/* menu bar for ease navigation */
-.menu-bar ul li a:hover{
-  color: black;
-  background: #fefefe;
-}
-

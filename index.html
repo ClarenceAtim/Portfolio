@@ -13,26 +13,22 @@
         <div id="my-logo">
             <a href="#">CLARENCE</a>
         </div>
-        <div class="hamburger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
+        <div class="hamberger-container" id="hamberger">
+            <span class="btn-line"></span>
+            <span class="btn-line"></span>
+            <span class="btn-line"></span>
         </div>
-        <nav class="menu-bar">
-            <img src="images/menu.svg" alt="menu bar">
+        <nav class="menu-bar" id="menu">
             <ul class="social-media">
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#"><img src="images/email.png" alt="">
+                <li><a class="nav-links" href="#Portfolio">Portfolio</a></li>
+                <li><a class="nav-links" href="#about">About</a></li>
+                <li><a class="nav-links" href="#contact">Contact</a></li>
+                <li><a class="nav-links" href="#"><img src="images/email.png" alt="">
                 </a></li>
             </ul>
         </nav>
     </header>
-    <script>
-
-    </script>
-    <section class="headline-section">
+    <section id="Portfolio" class="headline-section">
             <div id="information">
                 <h1>Hey There.<br>I'm Clarence.</h1>
             <h2>I'm a Software Developer</h2>
@@ -157,7 +153,7 @@
             <a class="see-project none" href="#">See project</a>
         </div>
     </section>
-    <section class="about-myself">
+    <section class="about-myself" id="about">
         <div id="about-info">
             <h2>About me</h2>
             <p>
@@ -210,7 +206,7 @@
                     </div>
         </div>
     </section>
-    <section class="contact-form">
+    <section class="contact-form" id="contact">
         <h2>
             I'm always interested in hearing about new projects,
              so if you'd like to chat please get in touch.
@@ -241,5 +237,6 @@
             <li><a href="#"><img src="images/medium/deskstop.svg" alt="medium icon"></a></li>
         </ul>
     </footer>
+    <script src="./main.js"></script>
 </body>
 </html>
