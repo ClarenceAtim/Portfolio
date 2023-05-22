@@ -727,3 +727,9 @@ footer ul {
     margin-left: 0;
   }
 }
+/* menu bar for ease navigation */
+.menu-bar ul li a:hover{
+  color: black;
+  background: #fefefe;
+}
+
