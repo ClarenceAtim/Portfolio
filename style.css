@@ -26,6 +26,16 @@
   border: none;
 }
 
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+  list-style-type: none;
+  margin-top: 25px;
+  padding-left: 0;
+}
+
 .menu-bar {
   color: #acb7c3;
   font-size: 36px;
@@ -34,10 +44,11 @@
   margin-bottom: 19px;
   position: fixed;
   top: -1.2rem;
-  background-color:#212121;
+  background-color: #212121;
   width: 100%;
   height: 100vh;
-  display: flex;
+
+  /* display: flex; */
   flex-direction: column;
   align-items: center;
   padding-top: 10rem;
@@ -46,12 +57,12 @@
   z-index: 1;
 }
 
-.active{
+.active {
   display: block;
   transition: all ease-in-out 0.2s;
 }
 
-.menu-bar ul{
+.menu-bar ul {
   display: flex;
   flex-direction: column;
   list-style: none;
@@ -59,12 +70,12 @@
   padding: 0 0 0 6rem;
 }
 
-.nav-links{
+.nav-links {
   text-decoration: none;
   color: #f4f1f0;
 }
 
-.hamberger-container{
+.hamberger-container {
   width: 1.5rem;
   height: auto;
   display: flex;
@@ -74,14 +85,14 @@
   z-index: 10;
 }
 
-.btn-line{
+.btn-line {
   width: inherit;
   height: 2px;
   background-color: #fff;
   transition: all ease-in 0.3s;
 }
 
-.hamberger-container.close{
+.hamberger-container.close {
   transform: rotate(180deg);
 }
 
@@ -98,18 +109,6 @@
   transform: rotate(-45deg) translate(7px, -6px);
   transition: all ease-in 0.3s;
 }
-
-
-footer ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 15px;
-  list-style-type: none;
-  margin-top: 25px;
-  padding-left: 0;
-}
-
 
 .headline-section {
   display: flex;
@@ -550,13 +549,13 @@ footer ul {
     display: block;
     position: relative;
     top: 0;
-    background-color:#3c3a39;
+    background-color: #3c3a39;
     height: auto;
     width: auto;
     padding-top: 1rem;
   }
 
-  .hamberger-container{
+  .hamberger-container {
     display: none;
   }
 
