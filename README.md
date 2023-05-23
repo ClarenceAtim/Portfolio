@@ -55,7 +55,10 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Demo of Linters**
+- When the user clicks (or taps) the hamburger button, the mobile menu appears.
+- When the user clicks (or taps) the close (X) button, the mobile menu disappears.
+- When the user clicks (or taps) any of the mobile menu options, the mobile menu disappears.
+- When the user clicks (or taps) any of the mobile menu options, a correct part of the page is displayed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -115,6 +118,10 @@ npx stylelint "**/*.{css,scss}"
 👤 Clarence
 
 - GitHub: [ClarenceAtim](https://github.com/ClarenceAtim/Portfolio/tree/Portfolio-branch)
+
+👤 Stanley
+
+- GitHub: [sagieramos](https://github.com/sagieramos)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
