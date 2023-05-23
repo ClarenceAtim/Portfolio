@@ -41,7 +41,6 @@ footer ul {
 .menu-bar {
   font-family: inter, sans-serif;
   font-style: normal;
-  top: calc(50% - 24px/2);
   font-weight: 700;
   color: #fff5e1;
   font-size: 36px;
@@ -73,6 +72,7 @@ footer ul {
   flex-direction: column;
   list-style: none;
   gap: 1rem;
+
   /* padding: 0 0 0 6rem; */
   padding: 0;
   margin-top: -87px;
@@ -809,5 +809,4 @@ footer ul {
 .menu-bar ul li {
   display: inline-block;
   border-bottom: 2px solid #6f6c6b;
-  
 }
