@@ -48,7 +48,7 @@ const projects = [
   {
     main: true,
     name: 'Multi-Post Stories',
-   image: './images/img-placeholder-desktop.svg',
+    image: './images/img-placeholder-desktop.svg',
     image2: './images/ImgPlaceholder.png',
     image3: './images/Snapshoot Portfolio.png',
     description:
@@ -87,7 +87,7 @@ const projects = [
     main: false,
     name: 'Website Portfolio',
     image: './images/Last-card.svg',
-   image2: './images/ImgPlaceholder.png',
+    image2: './images/ImgPlaceholder.png',
     image3: './images/Snapshoot Portfolio.png',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industrys standard.',
