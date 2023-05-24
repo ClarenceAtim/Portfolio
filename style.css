@@ -667,7 +667,7 @@ body.mobile-nav-open {
     display: grid;
     align-items: baseline;
     grid-template-columns: repeat(2, 1fr);
-    margin-left: 52px;
+    margin-left: 51px;
     padding: 130px 0;
     gap: 152px;
   }
