@@ -4,7 +4,7 @@
 
 <div align="center">
   
-  <h3><b> MObile Portfolio</b></h3>
+  <h3><b>Mobile Portfolio</b></h3>
 
 </div>
 
@@ -59,6 +59,9 @@
 - When the user clicks (or taps) the close (X) button, the mobile menu disappears.
 - When the user clicks (or taps) any of the mobile menu options, the mobile menu disappears.
 - When the user clicks (or taps) any of the mobile menu options, a correct part of the page is displayed.
+- When the user clicks (or taps) the button to check project details, the popup with details about the project appears.
+- When the user clicks (or taps) the close (X) button, the popup disappears.
+- JavaScript array to store all of the information for all projects.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
