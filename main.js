@@ -15,22 +15,21 @@ mobileNavList.forEach((element) => {
   element.addEventListener('click', togglerMenu);
 });
 
-
 //  Work Projects Data
 
 const projects = [
-   {
+  {
     main: true,
     name: 'Multi-Post Stories',
-     image: './images/img-placeholder-desktop.svg',
-     image2: './images/ImgPlaceholder.png',
+    image: './images/img-placeholder-desktop.svg',
+    image2: './images/ImgPlaceholder.png',
     image3: './images/Snapshoot Portfolio.png',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
     tags: ['HTML', 'CSS', 'Bootstrap', 'Ruby'],
-     demoLink: '',
+    demoLink: '',
   //   codeLink: '',
-   },
+  },
 
   {
     main: false,
