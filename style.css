@@ -619,11 +619,12 @@ body.mobile-nav-open {
     bottom: 0;
     opacity: 0;
   }
-.work-card:hover .button-section {
-    opacity: 1;
-  } 
 
-  .info-holder:hover{
+  .work-card:hover .button-section {
+    opacity: 1;
+  }
+
+  .info-holder:hover {
     opacity: 1;
   }
 
@@ -846,6 +847,7 @@ body.mobile-nav-open {
   flex-direction: column;
   gap: 1.5rem;
 }
+
 .popup-description {
   width: inherit;
   font-family: var(--font-inter);
@@ -855,7 +857,6 @@ body.mobile-nav-open {
   line-height: 24px;
   color: #344563;
 }
-
 
 .popup-btn-holder {
   display: flex;
