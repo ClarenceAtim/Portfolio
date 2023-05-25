@@ -62,7 +62,7 @@
 - When the user clicks (or taps) the button to check project details, the popup with details about the project appears.
 - When the user clicks (or taps) the close (X) button, the popup disappears.
 - JavaScript array to store all of the information for all projects.
-
+- Added a simple validation:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->

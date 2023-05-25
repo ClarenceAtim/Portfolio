@@ -15,33 +15,6 @@ mobileNavList.forEach((element) => {
   element.addEventListener('click', togglerMenu);
 });
 
-// form validation
-const form = document.querySelector('.contact-form');
-const emailInput = form.querySelector('#email');
-const errorMessage = form.querySelector('#error-message');
-
-form.addEventListener('submit', (event) => {
-  if (emailInput.value !== emailInput.value.toLowerCase()) {
-    event.preventDefault();
-    errorMessage.textContent = 'Please enter a lower case email address.';
-  }
-});
-
-form.addEventListener('input', () => {
-  const formData = Object.fromEntries(new FormData(form).entries());
-  localStorage.setItem('UserData', JSON.stringify(formData));
-});
-
-const savedFormData = JSON.parse(localStorage.getItem('UserData'));
-if (savedFormData) {
-  Object.entries(savedFormData).forEach(([name, value]) => {
-    const input = form.elements[name];
-    if (input) {
-      input.value = value;
-    }
-  });
-}
-
 //  Work Projects Data
 
 const projects = [
@@ -55,7 +28,7 @@ const projects = [
       'A daily selection of privately personalized reads; no accounts or sign-ups required. This has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
     tags: ['HTML', 'CSS', 'Bootstrap', 'Ruby'],
     demoLink: '',
-    codeLink: '',
+  //   codeLink: '',
   },
 
   {
@@ -295,3 +268,30 @@ buttons.forEach((button, index) => {
     });
   });
 });
+
+// form validation
+const form = document.querySelector('.contact-form');
+const emailInput = form.querySelector('#email');
+const errorMessage = form.querySelector('#error-message');
+
+form.addEventListener('submit', (event) => {
+  if (emailInput.value !== emailInput.value.toLowerCase()) {
+    event.preventDefault();
+    errorMessage.textContent = 'Please enter a lower case email address.';
+  }
+});
+
+form.addEventListener('input', () => {
+  const formData = Object.fromEntries(new FormData(form).entries());
+  localStorage.setItem('UserData', JSON.stringify(formData));
+});
+
+const savedFormData = JSON.parse(localStorage.getItem('UserData'));
+if (savedFormData) {
+  Object.entries(savedFormData).forEach(([name, value]) => {
+    const input = form.elements[name];
+    if (input) {
+      input.value = value;
+    }
+  });
+}
