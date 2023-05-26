@@ -241,7 +241,7 @@ form.addEventListener('submit', (event) => {
     errorMessage.textContent = 'Please enter a lower case email address.';
   }
 });
- 
+
 // preseve data
 form.addEventListener('input', () => {
   const formData = Object.fromEntries(new FormData(form).entries());
