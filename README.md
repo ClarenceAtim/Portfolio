@@ -141,7 +141,7 @@ npx stylelint "**/*.{css,scss}"
 
 <!-- CONTRIBUTING -->
 
-## 🚀 Live Demo <a name='demo'></a>
+## 🚀 Live Demo <a name=https://clarenceatim.github.io/Portfolio/></a>
 >Here's the live demo of my website online portfolio click this [Link below](https://clarenceatim.github.io/Portfolio/)
 
 ## 🤝 Contributing <a name="contributing"></a>
